@@ -1,0 +1,4 @@
+include ':CocosGame'
+project(':CocosGame').projectDir = new File(settingsDir, 'app')
+include ':libcocos2dx'
+project(':libcocos2dx').projectDir = new File(settingsDir, 'cocos2dx')

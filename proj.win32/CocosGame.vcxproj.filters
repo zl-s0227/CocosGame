@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Classes">
+      <UniqueIdentifier>{6556c321-a2a3-4c37-b2fb-91be2604385f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Classes">
+      <UniqueIdentifier>{2d9ef9bc-906d-4c5a-8cd8-dc8816286751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Classes\Games">
+      <UniqueIdentifier>{8cdb3945-ab56-4a13-9b26-11e080eaeeaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Classes\Games">
+      <UniqueIdentifier>{548428cf-7caf-44ed-941f-d6d6989f1b53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Classes\Games\GameObject">
+      <UniqueIdentifier>{86e0f1b9-65fd-4b42-8866-fc28b737fef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Classes\Games\GameObject">
+      <UniqueIdentifier>{0efa2368-ce6f-4380-af79-3d382903a840}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CocosGame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>源文件\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RootScene.cpp">
+      <Filter>源文件\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Games\Control.cpp">
+      <Filter>源文件\Classes\Games</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Games\GameFactory.cpp">
+      <Filter>源文件\Classes\Games</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Games\SnacksGame.cpp">
+      <Filter>源文件\Classes\Games</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Games\GameObject\SnackFoods.cpp">
+      <Filter>源文件\Classes\Games\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Games\GameObject\SnackSprite.cpp">
+      <Filter>源文件\Classes\Games\GameObject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Classes\Games\GameDefs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Games\GameObject\SnackFoods.h">
+      <Filter>头文件\Classes\Games\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Games\GameObject\SnackSprite.h">
+      <Filter>头文件\Classes\Games\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Games\Control.h">
+      <Filter>头文件\Classes\Games</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Games\GameDefs.h">
+      <Filter>头文件\Classes\Games</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Games\GameFactory.h">
+      <Filter>头文件\Classes\Games</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Games\SnacksGame.h">
+      <Filter>头文件\Classes\Games</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>头文件\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RootScene.h">
+      <Filter>头文件\Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

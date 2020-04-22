@@ -1,0 +1,5 @@
+*.pdb
+*.ipdb
+*.iobj
+*.ilk
+*.exp
